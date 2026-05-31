@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" fill="none" stroke="#C8840A" stroke-width="1" stroke-opacity="0.7" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Large detailed wagon wheel (left, partial/cut off) -->
+  <circle cx="60" cy="220" r="100"/>
+  <circle cx="60" cy="220" r="10"/>
+  <!-- 8 Spokes -->
+  <line x1="60" y1="120" x2="60" y2="220"/>
+  <line x1="131" y1="149" x2="60" y2="220"/>
+  <line x1="160" y1="220" x2="60" y2="220"/>
+  <line x1="131" y1="291" x2="60" y2="220"/>
+  <line x1="60" y1="320" x2="60" y2="220"/>
+  <line x1="-11" y1="291" x2="60" y2="220"/>
+  <line x1="-40" y1="220" x2="60" y2="220"/>
+  <line x1="-11" y1="149" x2="60" y2="220"/>
+  <!-- Bamboo pole with node/bump marks -->
+  <line x1="160" y1="80" x2="400" y2="60" stroke-width="2"/>
+  <!-- Bamboo nodes (small bumps) along the pole -->
+  <ellipse cx="200" cy="74" rx="4" ry="2" transform="rotate(-5 200 74)"/>
+  <ellipse cx="250" cy="70" rx="4" ry="2" transform="rotate(-5 250 70)"/>
+  <ellipse cx="300" cy="66" rx="4" ry="2" transform="rotate(-5 300 66)"/>
+  <ellipse cx="350" cy="63" rx="4" ry="2" transform="rotate(-5 350 63)"/>
+  <!-- Hanging food containers on hooks from pole -->
+  <!-- Hook 1 -->
+  <path d="M220 74 C220 74 222 80 220 86"/>
+  <!-- Container 1 (dome/cylindrical) -->
+  <path d="M208 86 L208 118 C208 122 214 126 220 126 C226 126 232 122 232 118 L232 86"/>
+  <ellipse cx="220" cy="86" rx="12" ry="4"/>
+  <ellipse cx="220" cy="118" rx="12" ry="4" stroke-opacity="0.5"/>
+  <line x1="208" y1="96" x2="232" y2="96" stroke-opacity="0.4"/>
+  <line x1="208" y1="106" x2="232" y2="106" stroke-opacity="0.4"/>
+  <!-- Hook 2 -->
+  <path d="M270 70 C270 70 272 76 270 82"/>
+  <!-- Container 2 -->
+  <path d="M258 82 L256 114 C256 118 262 122 270 122 C278 122 284 118 284 114 L282 82"/>
+  <ellipse cx="270" cy="82" rx="12" ry="4"/>
+  <!-- Hook 3 -->
+  <path d="M320 66 C320 66 322 72 320 78"/>
+  <!-- Container 3 dome shape -->
+  <path d="M310 78 L308 106 C308 110 314 114 320 114 C326 114 332 110 332 106 L330 78"/>
+  <ellipse cx="320" cy="78" rx="10" ry="4"/>
+  <!-- Lantern close-up (right side) -->
+  <!-- Chain detail -->
+  <line x1="370" y1="60" x2="370" y2="70" stroke-dasharray="3 2"/>
+  <line x1="366" y1="70" x2="374" y2="70"/>
+  <!-- Hexagonal lantern body -->
+  <path d="M354 70 L350 80 L350 120 C350 126 360 130 370 130 C380 130 390 126 390 120 L390 80 L386 70 Z"/>
+  <!-- Hexagonal panels -->
+  <line x1="362" y1="70" x2="362" y2="130" stroke-opacity="0.4"/>
+  <line x1="370" y1="70" x2="370" y2="130" stroke-opacity="0.4"/>
+  <line x1="378" y1="70" x2="378" y2="130" stroke-opacity="0.4"/>
+  <line x1="350" y1="88" x2="390" y2="88" stroke-opacity="0.4"/>
+  <line x1="350" y1="104" x2="390" y2="104" stroke-opacity="0.4"/>
+  <line x1="350" y1="118" x2="390" y2="118" stroke-opacity="0.4"/>
+  <!-- Top cap of lantern -->
+  <path d="M354 70 C356 64 364 62 370 62 C376 62 384 64 386 70"/>
+  <!-- Flame inside lantern -->
+  <path d="M370 122 C366 116 365 108 370 102 C375 108 374 116 370 122Z" fill="rgba(200,132,10,0.4)" stroke-width="0.8"/>
+</svg>

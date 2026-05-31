@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="#C8840A" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Tall glass (slightly tapered wider at top) -->
+  <path d="M28 96 L26 34 L74 34 L72 96 Z"/>
+  <!-- Glass bottom curve -->
+  <path d="M28 96 C28 100 72 100 72 96"/>
+  <!-- Liquid level line near top -->
+  <line x1="26.5" y1="44" x2="73.5" y2="44" stroke-opacity="0.5"/>
+  <!-- Ice cubes at bottom (irregular rectangles) -->
+  <rect x="32" y="76" width="14" height="12" rx="2"/>
+  <rect x="49" y="78" width="13" height="12" rx="2"/>
+  <rect x="35" y="88" width="12" height="8" rx="2"/>
+  <rect x="50" y="86" width="14" height="10" rx="2"/>
+  <!-- Straw (diagonal, bottom-right to top-left extending above) -->
+  <line x1="62" y1="104" x2="36" y2="24"/>
+  <!-- Straw width (second line parallel) -->
+  <line x1="65" y1="104" x2="39" y2="24"/>
+  <!-- Condensation marks on glass exterior (left side) -->
+  <line x1="22" y1="52" x2="24" y2="56" stroke-opacity="0.5"/>
+  <line x1="20" y1="62" x2="23" y2="65" stroke-opacity="0.5"/>
+  <line x1="21" y1="72" x2="24" y2="76" stroke-opacity="0.5"/>
+  <!-- Condensation right side -->
+  <line x1="78" y1="58" x2="76" y2="62" stroke-opacity="0.5"/>
+  <line x1="79" y1="70" x2="77" y2="74" stroke-opacity="0.5"/>
+  <line x1="78" y1="82" x2="76" y2="86" stroke-opacity="0.5"/>
+</svg>

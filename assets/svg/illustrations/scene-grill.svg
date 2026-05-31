@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" fill="none" stroke="#C8840A" stroke-width="1" stroke-opacity="0.7" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Grill brazier legs -->
+  <line x1="120" y1="220" x2="108" y2="268"/>
+  <line x1="280" y1="220" x2="292" y2="268"/>
+  <line x1="150" y1="220" x2="144" y2="268"/>
+  <line x1="250" y1="220" x2="256" y2="268"/>
+  <!-- Grill body (rectangular container) -->
+  <rect x="80" y="160" width="240" height="60" rx="4"/>
+  <!-- Grill top rim -->
+  <rect x="74" y="155" width="252" height="12" rx="3"/>
+  <!-- Grate lines (horizontal) inside grill -->
+  <line x1="80" y1="173" x2="320" y2="173" stroke-opacity="0.5"/>
+  <line x1="80" y1="183" x2="320" y2="183" stroke-opacity="0.5"/>
+  <line x1="80" y1="193" x2="320" y2="193" stroke-opacity="0.5"/>
+  <line x1="80" y1="203" x2="320" y2="203" stroke-opacity="0.5"/>
+  <!-- Grate lines (vertical) inside grill -->
+  <line x1="110" y1="160" x2="110" y2="220" stroke-opacity="0.4"/>
+  <line x1="140" y1="160" x2="140" y2="220" stroke-opacity="0.4"/>
+  <line x1="170" y1="160" x2="170" y2="220" stroke-opacity="0.4"/>
+  <line x1="200" y1="160" x2="200" y2="220" stroke-opacity="0.4"/>
+  <line x1="230" y1="160" x2="230" y2="220" stroke-opacity="0.4"/>
+  <line x1="260" y1="160" x2="260" y2="220" stroke-opacity="0.4"/>
+  <line x1="290" y1="160" x2="290" y2="220" stroke-opacity="0.4"/>
+  <!-- Sate sticks laid diagonally across grate -->
+  <line x1="90" y1="130" x2="310" y2="175" stroke-width="1.5"/>
+  <line x1="90" y1="142" x2="310" y2="187" stroke-width="1.5"/>
+  <line x1="90" y1="154" x2="310" y2="199" stroke-width="1.5"/>
+  <line x1="90" y1="166" x2="310" y2="211" stroke-width="1.5"/>
+  <line x1="90" y1="118" x2="310" y2="163" stroke-width="1.5"/>
+  <!-- Meat chunks on sticks -->
+  <path d="M140 143 C138 140 139 136 143 135 C147 134 151 136 150 140 C149 144 145 145 141 144Z"/>
+  <path d="M190 147 C188 144 189 140 193 139 C197 138 201 140 200 144 C199 148 195 149 191 148Z"/>
+  <path d="M240 150 C238 147 239 143 243 142 C247 141 251 143 250 147 C249 151 245 152 241 151Z"/>
+  <path d="M145 156 C143 153 144 149 148 148 C152 147 156 149 155 153 C154 157 150 158 146 157Z"/>
+  <path d="M200 161 C198 158 199 154 203 153 C207 152 211 154 210 158 C209 162 205 163 201 162Z"/>
+  <!-- Flame shapes from below grate -->
+  <path d="M120 218 C116 212 117 206 122 202 C125 208 124 216 120 218Z" fill="rgba(200,132,10,0.4)" stroke-width="0.8"/>
+  <path d="M160 220 C157 214 158 208 163 205 C165 210 165 218 160 220Z" fill="rgba(200,132,10,0.4)" stroke-width="0.8"/>
+  <path d="M200 220 C196 213 198 206 203 203 C205 208 204 217 200 220Z" fill="rgba(200,132,10,0.4)" stroke-width="0.8"/>
+  <path d="M240 220 C237 214 238 208 243 205 C245 210 244 218 240 220Z" fill="rgba(200,132,10,0.4)" stroke-width="0.8"/>
+  <path d="M280 218 C277 212 278 206 283 203 C285 208 284 216 280 218Z" fill="rgba(200,132,10,0.4)" stroke-width="0.8"/>
+  <!-- Smoke/steam curling from meat -->
+  <path d="M148 136 C146 128 148 120 146 112 C144 104 146 96 144 88"/>
+  <path d="M200 140 C202 132 200 124 202 116 C204 108 202 100 204 92"/>
+  <path d="M250 142 C248 134 250 126 248 118 C246 110 248 102 246 94"/>
+</svg>

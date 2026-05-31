@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" fill="none" stroke="#C8840A" stroke-width="1" stroke-opacity="0.7" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Low table in center -->
+  <rect x="140" y="160" width="120" height="30" rx="4"/>
+  <!-- Table legs -->
+  <line x1="148" y1="190" x2="144" y2="210"/>
+  <line x1="252" y1="190" x2="256" y2="210"/>
+  <!-- Cups on table -->
+  <ellipse cx="175" cy="158" rx="10" ry="4"/>
+  <path d="M165 158 L166 170 C166 172 170 174 175 174 C180 174 184 172 184 170 L185 158"/>
+  <ellipse cx="200" cy="158" rx="10" ry="4"/>
+  <path d="M190 158 L191 170 C191 172 195 172 200 172 C205 172 209 172 209 170 L210 158"/>
+  <ellipse cx="225" cy="158" rx="10" ry="4"/>
+  <path d="M215 158 L216 170 C216 172 220 174 225 174 C230 174 234 172 234 170 L235 158"/>
+  <!-- Radial warm light lines from table center -->
+  <line x1="200" y1="175" x2="200" y2="140" stroke-opacity="0.25"/>
+  <line x1="200" y1="175" x2="224" y2="150" stroke-opacity="0.25"/>
+  <line x1="200" y1="175" x2="238" y2="175" stroke-opacity="0.25"/>
+  <line x1="200" y1="175" x2="224" y2="200" stroke-opacity="0.25"/>
+  <line x1="200" y1="175" x2="200" y2="210" stroke-opacity="0.25"/>
+  <line x1="200" y1="175" x2="176" y2="200" stroke-opacity="0.25"/>
+  <line x1="200" y1="175" x2="162" y2="175" stroke-opacity="0.25"/>
+  <line x1="200" y1="175" x2="176" y2="150" stroke-opacity="0.25"/>
+  <!-- Person 1 (left, seated) -->
+  <!-- Head -->
+  <circle cx="88" cy="130" r="20"/>
+  <!-- Torso -->
+  <path d="M70 150 C68 165 68 175 72 185 C76 195 82 200 88 200 C94 200 100 195 104 185 C108 175 108 165 106 150 Z" stroke-width="1"/>
+  <!-- Arms resting toward table -->
+  <path d="M70 162 C60 168 56 172 80 178"/>
+  <path d="M106 162 C116 168 132 172 120 178"/>
+  <!-- Person 2 (top, farther away - smaller) -->
+  <circle cx="200" cy="80" r="16"/>
+  <path d="M186 96 C184 110 184 118 188 126 C192 134 196 138 200 138 C204 138 208 134 212 126 C216 118 216 110 214 96 Z" stroke-width="1"/>
+  <!-- Arms on table -->
+  <path d="M186 108 C176 112 166 118 158 162"/>
+  <path d="M214 108 C224 112 234 118 242 162"/>
+  <!-- Person 3 (right, seated) -->
+  <circle cx="312" cy="130" r="20"/>
+  <path d="M294 150 C292 165 292 175 296 185 C300 195 306 200 312 200 C318 200 324 195 328 185 C332 175 332 165 330 150 Z" stroke-width="1"/>
+  <path d="M294 162 C282 168 268 172 280 178"/>
+  <path d="M330 162 C342 168 348 172 320 178"/>
+</svg>

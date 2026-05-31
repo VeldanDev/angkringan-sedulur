@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" fill="none" stroke="#C8840A" stroke-width="1" stroke-opacity="0.7" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Ground line -->
+  <line x1="0" y1="220" x2="400" y2="220" stroke-opacity="0.4"/>
+  <!-- === CART === -->
+  <!-- Left wheel -->
+  <circle cx="110" cy="200" r="40"/>
+  <line x1="110" y1="160" x2="110" y2="200"/>
+  <line x1="110" y1="200" x2="110" y2="240"/>
+  <line x1="70" y1="200" x2="110" y2="200"/>
+  <line x1="110" y1="200" x2="150" y2="200"/>
+  <line x1="82" y1="172" x2="110" y2="200"/>
+  <line x1="110" y1="200" x2="138" y2="228"/>
+  <line x1="138" y1="172" x2="110" y2="200"/>
+  <line x1="110" y1="200" x2="82" y2="228"/>
+  <circle cx="110" cy="200" r="5" fill="#C8840A" stroke="none" fill-opacity="0.7"/>
+  <!-- Right wheel -->
+  <circle cx="290" cy="200" r="40"/>
+  <line x1="290" y1="160" x2="290" y2="200"/>
+  <line x1="290" y1="200" x2="290" y2="240"/>
+  <line x1="250" y1="200" x2="290" y2="200"/>
+  <line x1="290" y1="200" x2="330" y2="200"/>
+  <line x1="262" y1="172" x2="290" y2="200"/>
+  <line x1="290" y1="200" x2="318" y2="228"/>
+  <line x1="318" y1="172" x2="290" y2="200"/>
+  <line x1="290" y1="200" x2="262" y2="228"/>
+  <circle cx="290" cy="200" r="5" fill="#C8840A" stroke="none" fill-opacity="0.7"/>
+  <!-- Horizontal bamboo pole -->
+  <line x1="148" y1="148" x2="252" y2="148" stroke-width="2"/>
+  <line x1="110" y1="162" x2="148" y2="148"/>
+  <line x1="290" y1="162" x2="252" y2="148"/>
+  <!-- Lantern chain -->
+  <line x1="200" y1="148" x2="200" y2="156" stroke-dasharray="3 3"/>
+  <!-- Lantern body -->
+  <path d="M188 156 L186 176 C186 180 193 184 200 184 C207 184 214 180 214 176 L212 156 C212 152 207 150 200 150 C193 150 188 152 188 156Z"/>
+  <line x1="186" y1="162" x2="214" y2="162"/>
+  <line x1="185" y1="168" x2="215" y2="168"/>
+  <line x1="185" y1="174" x2="215" y2="174"/>
+  <!-- Flame in lantern -->
+  <path d="M200 181 C197 178 196 172 200 168 C204 172 203 178 200 181Z" fill="rgba(200,132,10,0.5)" stroke-width="0.8"/>
+  <!-- Radial light lines from lantern -->
+  <line x1="200" y1="166" x2="200" y2="148" stroke-opacity="0.3"/>
+  <line x1="200" y1="166" x2="216" y2="154" stroke-opacity="0.3"/>
+  <line x1="200" y1="166" x2="220" y2="166" stroke-opacity="0.3"/>
+  <line x1="200" y1="166" x2="216" y2="178" stroke-opacity="0.3"/>
+  <line x1="200" y1="166" x2="200" y2="184" stroke-opacity="0.3"/>
+  <line x1="200" y1="166" x2="184" y2="178" stroke-opacity="0.3"/>
+  <line x1="200" y1="166" x2="180" y2="166" stroke-opacity="0.3"/>
+  <line x1="200" y1="166" x2="184" y2="154" stroke-opacity="0.3"/>
+  <!-- Cart platform -->
+  <rect x="148" y="196" width="104" height="16" rx="2"/>
+  <!-- Food containers -->
+  <ellipse cx="172" cy="192" rx="14" ry="7"/>
+  <path d="M158 192 C158 184 186 184 186 192"/>
+  <ellipse cx="200" cy="192" rx="14" ry="7"/>
+  <path d="M186 192 C186 184 214 184 214 192"/>
+  <!-- Thermos right -->
+  <rect x="222" y="180" width="16" height="22" rx="3"/>
+  <line x1="222" y1="186" x2="238" y2="186"/>
+  <!-- Seated figure silhouette (right of cart) -->
+  <circle cx="340" cy="194" r="10"/>
+  <path d="M334 204 C330 218 330 224 334 224 L350 224 C354 224 354 218 350 204 C346 200 338 200 334 204Z"/>
+  <!-- Stars in sky -->
+  <path d="M60 20 L62 26 L68 28 L62 30 L60 36 L58 30 L52 28 L58 26 Z" stroke-width="0.8" stroke-opacity="0.5"/>
+  <path d="M330 30 L332 36 L338 38 L332 40 L330 46 L328 40 L322 38 L328 36 Z" stroke-width="0.8" stroke-opacity="0.5"/>
+  <!-- Small star dots -->
+  <circle cx="160" cy="30" r="1.5" fill="#C8840A" fill-opacity="0.4" stroke="none"/>
+  <circle cx="240" cy="15" r="1.5" fill="#C8840A" fill-opacity="0.4" stroke="none"/>
+  <circle cx="300" cy="50" r="1.5" fill="#C8840A" fill-opacity="0.4" stroke="none"/>
+  <circle cx="80" cy="60" r="1" fill="#C8840A" fill-opacity="0.4" stroke="none"/>
+  <circle cx="360" cy="20" r="1" fill="#C8840A" fill-opacity="0.4" stroke="none"/>
+  <circle cx="140" cy="50" r="1" fill="#C8840A" fill-opacity="0.4" stroke="none"/>
+  <!-- Crescent moon upper right -->
+  <path d="M360 40 C360 56 372 66 384 62 C370 68 354 58 354 42 C354 26 370 16 384 22 C372 18 360 24 360 40Z" stroke-width="0.9"/>
+</svg>

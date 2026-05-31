@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="#C8840A" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Stick 1 (left) -->
+  <line x1="34" y1="108" x2="34" y2="16"/>
+  <!-- Intestine rings on stick 1 -->
+  <ellipse cx="34" cy="94" rx="9" ry="5"/>
+  <line x1="25" y1="91" x2="43" y2="91"/>
+  <line x1="25" y1="97" x2="43" y2="97"/>
+  <ellipse cx="34" cy="80" rx="9" ry="5"/>
+  <line x1="25" y1="77" x2="43" y2="77"/>
+  <line x1="25" y1="83" x2="43" y2="83"/>
+  <ellipse cx="34" cy="66" rx="9" ry="5"/>
+  <line x1="25" y1="63" x2="43" y2="63"/>
+  <line x1="25" y1="69" x2="43" y2="69"/>
+  <ellipse cx="34" cy="52" rx="9" ry="5"/>
+  <line x1="25" y1="49" x2="43" y2="49"/>
+  <line x1="25" y1="55" x2="43" y2="55"/>
+  <!-- Stick 2 (center) -->
+  <line x1="60" y1="108" x2="60" y2="16"/>
+  <ellipse cx="60" cy="94" rx="9" ry="5"/>
+  <line x1="51" y1="91" x2="69" y2="91"/>
+  <line x1="51" y1="97" x2="69" y2="97"/>
+  <ellipse cx="60" cy="80" rx="9" ry="5"/>
+  <line x1="51" y1="77" x2="69" y2="77"/>
+  <line x1="51" y1="83" x2="69" y2="83"/>
+  <ellipse cx="60" cy="66" rx="9" ry="5"/>
+  <line x1="51" y1="63" x2="69" y2="63"/>
+  <line x1="51" y1="69" x2="69" y2="69"/>
+  <ellipse cx="60" cy="52" rx="9" ry="5"/>
+  <line x1="51" y1="49" x2="69" y2="49"/>
+  <line x1="51" y1="55" x2="69" y2="55"/>
+  <!-- Stick 3 (right) -->
+  <line x1="86" y1="108" x2="86" y2="16"/>
+  <ellipse cx="86" cy="94" rx="9" ry="5"/>
+  <line x1="77" y1="91" x2="95" y2="91"/>
+  <line x1="77" y1="97" x2="95" y2="97"/>
+  <ellipse cx="86" cy="80" rx="9" ry="5"/>
+  <line x1="77" y1="77" x2="95" y2="77"/>
+  <line x1="77" y1="83" x2="95" y2="83"/>
+  <ellipse cx="86" cy="66" rx="9" ry="5"/>
+  <line x1="77" y1="63" x2="95" y2="63"/>
+  <line x1="77" y1="69" x2="95" y2="69"/>
+  <ellipse cx="86" cy="52" rx="9" ry="5"/>
+  <line x1="77" y1="49" x2="95" y2="49"/>
+  <line x1="77" y1="55" x2="95" y2="55"/>
+</svg>

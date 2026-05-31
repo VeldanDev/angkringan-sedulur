@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="#C8840A" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Main tempe block -->
+  <rect x="22" y="40" width="76" height="44" rx="4"/>
+  <!-- Top face (slight 3D) -->
+  <path d="M22 40 L30 30 L106 30 L98 40"/>
+  <!-- Right face -->
+  <path d="M98 40 L106 30 L106 74 L98 84"/>
+  <!-- Crosshatch texture on front face -->
+  <line x1="34" y1="40" x2="34" y2="84"/>
+  <line x1="46" y1="40" x2="46" y2="84"/>
+  <line x1="58" y1="40" x2="58" y2="84"/>
+  <line x1="70" y1="40" x2="70" y2="84"/>
+  <line x1="82" y1="40" x2="82" y2="84"/>
+  <line x1="22" y1="52" x2="98" y2="52"/>
+  <line x1="22" y1="64" x2="98" y2="64"/>
+  <line x1="22" y1="76" x2="98" y2="76"/>
+  <!-- Shadow lines right edge -->
+  <line x1="98" y1="50" x2="106" y2="40" stroke-opacity="0.5"/>
+  <line x1="98" y1="60" x2="106" y2="50" stroke-opacity="0.5"/>
+  <line x1="98" y1="70" x2="106" y2="60" stroke-opacity="0.5"/>
+  <!-- Oil drip dots below -->
+  <circle cx="40" cy="92" r="1.5" fill="#C8840A" stroke="none"/>
+  <circle cx="60" cy="94" r="1.5" fill="#C8840A" stroke="none"/>
+  <circle cx="78" cy="91" r="1.5" fill="#C8840A" stroke="none"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="#C8840A" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Saucer -->
+  <ellipse cx="60" cy="96" rx="36" ry="8"/>
+  <ellipse cx="60" cy="94" rx="28" ry="5" stroke-opacity="0.5"/>
+  <!-- Cup body (trapezoid) -->
+  <path d="M36 94 L40 56 L80 56 L84 94"/>
+  <!-- Cup bottom curve -->
+  <path d="M36 94 C36 94 44 98 60 98 C76 98 84 94 84 94"/>
+  <!-- Cup handle -->
+  <path d="M84 70 C92 68 94 78 84 80" stroke-width="1.5"/>
+  <!-- Coffee surface inside cup -->
+  <ellipse cx="60" cy="58" rx="19" ry="5"/>
+  <!-- Steam lines - wavy/spiral -->
+  <path d="M48 52 C46 48 48 44 46 40 C44 36 46 32 44 28"/>
+  <path d="M60 50 C62 46 60 42 62 38 C64 34 62 30 64 26"/>
+  <path d="M72 52 C70 48 72 44 70 40 C68 36 70 32 68 28"/>
+</svg>

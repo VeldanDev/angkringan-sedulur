@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" fill="none" stroke="#C8840A" stroke-width="1" stroke-opacity="0.7" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Wooden surface - evenly spaced horizontal lines across bottom third -->
+  <line x1="0" y1="200" x2="400" y2="200" stroke-opacity="0.5" stroke-width="1.5"/>
+  <line x1="0" y1="212" x2="400" y2="212" stroke-opacity="0.4"/>
+  <line x1="0" y1="222" x2="400" y2="222" stroke-opacity="0.3"/>
+  <line x1="0" y1="232" x2="400" y2="232" stroke-opacity="0.2"/>
+  <line x1="0" y1="242" x2="400" y2="242" stroke-opacity="0.15"/>
+  <line x1="0" y1="252" x2="400" y2="252" stroke-opacity="0.1"/>
+  <line x1="0" y1="262" x2="400" y2="262" stroke-opacity="0.08"/>
+  <!-- Wood grain texture lines -->
+  <path d="M50 200 C60 210 55 220 65 232" stroke-opacity="0.2"/>
+  <path d="M150 200 C158 215 154 225 162 240" stroke-opacity="0.2"/>
+  <path d="M250 200 C244 212 248 224 242 236" stroke-opacity="0.2"/>
+  <path d="M340 200 C348 214 344 226 350 242" stroke-opacity="0.2"/>
+  <!-- Short cup (left) - trapezoid body -->
+  <path d="M120 200 L126 130 L174 130 L180 200"/>
+  <path d="M120 200 C120 200 136 204 150 204 C164 204 180 200 180 200"/>
+  <!-- Saucer under cup -->
+  <ellipse cx="150" cy="202" rx="44" ry="8"/>
+  <!-- Handle on cup -->
+  <path d="M180 156 C194 154 196 170 180 168" stroke-width="1.2"/>
+  <!-- Coffee surface in cup -->
+  <ellipse cx="150" cy="132" rx="23" ry="5" stroke-opacity="0.6"/>
+  <!-- Steam above cup -->
+  <path d="M138 122 C136 114 138 106 136 98 C134 90 136 82 134 74"/>
+  <path d="M150 120 C152 112 150 104 152 96 C154 88 152 80 154 72"/>
+  <path d="M162 122 C160 114 162 106 160 98 C158 90 160 82 158 74"/>
+  <!-- Tall glass (right) - slightly tapered -->
+  <path d="M244 200 L240 90 L296 90 L292 200"/>
+  <path d="M244 200 C244 204 292 204 292 200"/>
+  <!-- Liquid level in tall glass -->
+  <line x1="241" y1="106" x2="295" y2="106" stroke-opacity="0.5"/>
+  <!-- Steam above tall glass -->
+  <path d="M260 82 C258 74 260 66 258 58"/>
+  <path d="M276 80 C278 72 276 64 278 56"/>
+</svg>

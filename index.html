@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angkringan Sedulur — Titik Kumpul Orang Bahagia</title>
+  <meta name="description" content="Angkringan Sedulur, tempat nongkrong malam di Sipare-pare, Batu Bara. Nasi kucing, satean, kopi, dan minuman hangat. Buka Selasa–Minggu 17:00–01:00.">
+  <meta property="og:title" content="Angkringan Sedulur — Titik Kumpul Orang Bahagia">
+  <meta property="og:description" content="Tempat nongkrong malam di Sipare-pare, Kabupaten Batu Bara, Sumatera Utara.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0A0806">
+
+  <!-- SVG Favicon: lantern shape -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A0806'/%3E%3Cpath d='M10 8 L9 22 C9 25 12 27 16 27 C20 27 23 25 23 22 L22 8 C22 5 19 4 16 4 C13 4 10 5 10 8Z' fill='none' stroke='%23E8A820' stroke-width='1.5'/%3E%3Cline x1='10' y1='12' x2='22' y2='12' stroke='%23E8A820' stroke-width='1'/%3E%3Cline x1='10' y1='17' x2='22' y2='17' stroke='%23E8A820' stroke-width='1'/%3E%3Cpath d='M16 24 C14 21 14 17 16 14 C18 17 18 21 16 24Z' fill='%23E8A820'/%3E%3Cline x1='16' y1='4' x2='16' y2='1' stroke='%23E8A820' stroke-width='1.5'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+<!-- ===== PRELOADER ===== -->
+<div id="preloader">
+  <svg class="preloader-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" fill="none">
+    <!-- Cart wheels -->
+    <circle cx="72" cy="100" r="28" stroke="#E8A820" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="72" y1="72" x2="72" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="72" y1="100" x2="72" y2="128" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="44" y1="100" x2="72" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="72" y1="100" x2="100" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="52" y1="80" x2="72" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="72" y1="100" x2="92" y2="120" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="92" y1="80" x2="72" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="72" y1="100" x2="52" y2="120" stroke="#E8A820" stroke-width="1.2"/>
+    <circle cx="72" cy="100" r="4" stroke="#E8A820" stroke-width="1.2"/>
+    <circle cx="228" cy="100" r="28" stroke="#E8A820" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="228" y1="72" x2="228" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="228" y1="100" x2="228" y2="128" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="200" y1="100" x2="228" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="228" y1="100" x2="256" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="208" y1="80" x2="228" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="228" y1="100" x2="248" y2="120" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="248" y1="80" x2="228" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="228" y1="100" x2="208" y2="120" stroke="#E8A820" stroke-width="1.2"/>
+    <circle cx="228" cy="100" r="4" stroke="#E8A820" stroke-width="1.2"/>
+    <!-- Pole and lantern -->
+    <line x1="100" y1="68" x2="200" y2="68" stroke="#E8A820" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="72" y1="72" x2="100" y2="68" stroke="#E8A820" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="228" y1="72" x2="200" y2="68" stroke="#E8A820" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="150" y1="68" x2="150" y2="76" stroke="#E8A820" stroke-width="1" stroke-dasharray="2 2"/>
+    <path d="M142 76 L142 94 C142 97 146 99 150 99 C154 99 158 97 158 94 L158 76 C158 73 154 71 150 71 C146 71 142 73 142 76Z" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="142" y1="80" x2="158" y2="80" stroke="#E8A820" stroke-width="0.8"/>
+    <line x1="142" y1="85" x2="158" y2="85" stroke="#E8A820" stroke-width="0.8"/>
+    <line x1="142" y1="90" x2="158" y2="90" stroke="#E8A820" stroke-width="0.8"/>
+    <path d="M150 93 C148 91 147 88 150 85 C153 88 152 91 150 93Z" stroke="#E8A820" stroke-width="0.9" fill="rgba(232,168,32,0.3)"/>
+    <!-- Cart platform and food -->
+    <rect x="100" y="108" width="100" height="14" rx="2" stroke="#E8A820" stroke-width="1.5"/>
+    <ellipse cx="125" cy="104" rx="10" ry="5" stroke="#E8A820" stroke-width="1.2"/>
+    <path d="M115 104 C115 98 135 98 135 104" stroke="#E8A820" stroke-width="1.2"/>
+    <ellipse cx="152" cy="104" rx="10" ry="5" stroke="#E8A820" stroke-width="1.2"/>
+    <path d="M142 104 C142 98 162 98 162 104" stroke="#E8A820" stroke-width="1.2"/>
+    <rect x="175" y="95" width="14" height="18" rx="3" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="175" y1="100" x2="189" y2="100" stroke="#E8A820" stroke-width="0.8"/>
+    <!-- Brand text -->
+    <text x="150" y="146" font-family="Cormorant Garamond, serif" font-size="22" font-weight="600" fill="#E8A820" text-anchor="middle" letter-spacing="3">ANGKRINGAN SEDULUR</text>
+    <line x1="60" y1="158" x2="240" y2="158" stroke="#886040" stroke-width="0.8"/>
+    <text x="150" y="172" font-family="Cormorant Garamond, serif" font-size="9" fill="#886040" text-anchor="middle" letter-spacing="2">SIPARE-PARE · BATU BARA</text>
+  </svg>
+</div>
+
+<!-- ===== MOBILE DRAWER OVERLAY ===== -->
+<div class="drawer-overlay" id="drawer-overlay"></div>
+
+<!-- ===== MOBILE DRAWER ===== -->
+<nav id="mobile-drawer" aria-label="Menu navigasi mobile">
+  <div class="drawer-header">
+    <svg height="32" viewBox="0 0 300 200" fill="none" style="color: var(--gold2);">
+      <circle cx="72" cy="100" r="28" stroke="currentColor" stroke-width="1.5"/>
+      <line x1="100" y1="68" x2="200" y2="68" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M142 76 L142 94 C142 97 146 99 150 99 C154 99 158 97 158 94 L158 76 C158 73 154 71 150 71 C146 71 142 73 142 76Z" stroke="currentColor" stroke-width="1.2"/>
+      <text x="150" y="146" font-family="Cormorant Garamond, serif" font-size="22" font-weight="600" fill="currentColor" text-anchor="middle" letter-spacing="3">ANGKRINGAN SEDULUR</text>
+    </svg>
+    <button class="btn-close-drawer" id="btn-close-drawer" aria-label="Tutup menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <line x1="4" y1="4" x2="20" y2="20"/>
+        <line x1="20" y1="4" x2="4" y2="20"/>
+      </svg>
+    </button>
+  </div>
+  <ul class="drawer-links">
+    <li><a href="#tentang">Tentang</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#galeri">Galeri</a></li>
+    <li><a href="#info">Lokasi</a></li>
+  </ul>
+  <div class="drawer-footer">
+    <!-- REPLACE: wa.me/6282365202375 → real WhatsApp number -->
+    <a href="https://wa.me/6282365202375" class="btn-wa-drawer" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="18" height="18" rx="5"/>
+        <path d="M8 12 C8 9.79 9.79 8 12 8 C14.21 8 16 9.79 16 12 C16 14.21 14.21 16 12 16 C11.1 16 10.28 15.71 9.62 15.21 L7 16 L7.79 13.38 C7.29 12.72 8 11.9 8 12Z"/>
+      </svg>
+      Chat Kami di WhatsApp
+    </a>
+  </div>
+</nav>
+
+<!-- ===== NAVIGATION ===== -->
+<header id="navbar" role="banner">
+  <!-- Logo -->
+  <a href="#" class="nav-logo" aria-label="Angkringan Sedulur — Beranda">
+    <svg height="40" viewBox="0 0 300 200" fill="none" style="color: var(--gold2);" aria-hidden="true">
+      <circle cx="72" cy="100" r="28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="72" y1="72" x2="72" y2="100" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="72" y1="100" x2="72" y2="128" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="44" y1="100" x2="72" y2="100" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="72" y1="100" x2="100" y2="100" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="52" y1="80" x2="72" y2="100" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="72" y1="100" x2="92" y2="120" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="92" y1="80" x2="72" y2="100" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="72" y1="100" x2="52" y2="120" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="72" cy="100" r="4" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="228" cy="100" r="28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="228" y1="72" x2="228" y2="100" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="228" y1="100" x2="228" y2="128" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="200" y1="100" x2="228" y2="100" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="228" y1="100" x2="256" y2="100" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="208" y1="80" x2="228" y2="100" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="228" y1="100" x2="248" y2="120" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="248" y1="80" x2="228" y2="100" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="228" y1="100" x2="208" y2="120" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="228" cy="100" r="4" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="100" y1="68" x2="200" y2="68" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="72" y1="72" x2="100" y2="68" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="228" y1="72" x2="200" y2="68" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M142 76 L142 94 C142 97 146 99 150 99 C154 99 158 97 158 94 L158 76 C158 73 154 71 150 71 C146 71 142 73 142 76Z" stroke="currentColor" stroke-width="1.2"/>
+      <path d="M150 93 C148 91 147 88 150 85 C153 88 152 91 150 93Z" stroke="currentColor" stroke-width="0.9" fill="rgba(232,168,32,0.4)"/>
+      <rect x="100" y="108" width="100" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+      <text x="150" y="146" font-family="Cormorant Garamond, serif" font-size="22" font-weight="600" fill="currentColor" text-anchor="middle" letter-spacing="3">ANGKRINGAN SEDULUR</text>
+      <line x1="60" y1="158" x2="240" y2="158" stroke="#886040" stroke-width="0.8"/>
+      <text x="150" y="172" font-family="Cormorant Garamond, serif" font-size="9" fill="#886040" text-anchor="middle" letter-spacing="2">SIPARE-PARE · BATU BARA</text>
+    </svg>
+  </a>
+
+  <!-- Nav links (desktop) -->
+  <ul class="nav-links" role="list">
+    <li><a href="#tentang">Tentang</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#galeri">Galeri</a></li>
+    <li><a href="#info">Lokasi</a></li>
+  </ul>
+
+  <!-- Right actions -->
+  <div class="nav-right">
+    <!-- REPLACE: wa.me/6282365202375 → real WhatsApp number -->
+    <a href="https://wa.me/6282365202375" class="btn-wa-nav" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="3" y="3" width="18" height="18" rx="5"/>
+        <path d="M8 12 C8 9.79 9.79 8 12 8 C14.21 8 16 9.79 16 12 C16 14.21 14.21 16 12 16 C11.1 16 10.28 15.71 9.62 15.21 L7 16 L7.79 13.38 C7.29 12.72 8 11.9 8 12Z"/>
+      </svg>
+      Chat Kami
+    </a>
+    <button class="btn-hamburger" id="btn-hamburger" aria-label="Buka menu navigasi" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+        <line x1="3" y1="7" x2="21" y2="7"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="17" x2="21" y2="17"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="hero" aria-label="Hero - Angkringan Sedulur">
+  <!-- Background -->
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+    <div class="hero-grain"></div>
+    <!-- Decorative faded cart -->
+    <img class="hero-deco-cart" src="assets/svg/logo.svg" alt="" aria-hidden="true">
+  </div>
+
+  <!-- Content -->
+  <div class="hero-content">
+    <span class="hero-badge">SIPARE-PARE &middot; KABUPATEN BATU BARA</span>
+
+    <h1 class="hero-title">
+      <span class="hero-title-1">Angkringan</span>
+      <span class="hero-title-2">Sedulur</span>
+    </h1>
+
+    <p class="hero-tagline">Titik Kumpul Orang Bahagia</p>
+    <p class="hero-sub">Indonesia iku kudu akur, awakdewek iki sekabehane sedulur</p>
+
+    <div class="hero-btns">
+      <a href="#menu" class="btn-primary btn-magnetic" aria-label="Lihat Menu Angkringan Sedulur">
+        Lihat Menu
+      </a>
+      <a href="#info" class="btn-secondary btn-magnetic" aria-label="Cari Lokasi Angkringan Sedulur">
+        Cari Lokasi
+      </a>
+    </div>
+  </div>
+
+  <!-- Bottom info strip -->
+  <div class="hero-strip" aria-label="Informasi singkat" role="complementary">
+    <div class="hero-strip-item">
+      <span class="hero-strip-label">Hari Buka</span>
+      <span class="hero-strip-value">Selasa &ndash; Minggu</span>
+    </div>
+    <div class="hero-strip-item">
+      <span class="hero-strip-label">Jam Operasional</span>
+      <span class="hero-strip-value">17:00 &ndash; 01:00</span>
+    </div>
+    <div class="hero-strip-item">
+      <span class="hero-strip-label">Lokasi</span>
+      <span class="hero-strip-value">Jalinsum Indrapura</span>
+    </div>
+    <div class="hero-strip-item">
+      <span class="hero-strip-label">Tersedia di</span>
+      <span class="hero-strip-value">WhatsApp</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="tentang" aria-label="Tentang Angkringan Sedulur">
+  <div class="section-inner">
+    <div class="about-grid">
+
+      <!-- Left: decorative panel -->
+      <div class="about-card about-left">
+        <img
+          class="about-illustration"
+          src="assets/svg/illustrations/scene-night.svg"
+          alt="Ilustrasi suasana malam Angkringan Sedulur"
+          loading="lazy"
+        >
+        <div class="about-stats">
+          <div class="stat-cell">
+            <span class="stat-value">17:00</span>
+            <span class="stat-label">Buka Sore</span>
+          </div>
+          <div class="stat-cell">
+            <span class="stat-value">6 Hari</span>
+            <span class="stat-label">Per Minggu</span>
+          </div>
+          <div class="stat-cell">
+            <span class="stat-value">4.0/5</span>
+            <span class="stat-label">Rating GoFood</span>
+          </div>
+          <div class="stat-cell">
+            <span class="stat-value">1.6K+</span>
+            <span class="stat-label">Followers IG</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: text content -->
+      <div class="about-right">
+        <span class="about-eyebrow">TENTANG KAMI</span>
+        <h2 class="about-title">Nongkrong Malam yang Nggak Biasa</h2>
+        <p class="about-text">
+          Angkringan Sedulur bukan sekadar tempat makan. Di sini semua orang bisa duduk bareng,
+          ngobrol santai, dan ngerasa kayak ketemu saudara sendiri &mdash; tanpa batas, tanpa jarak.
+        </p>
+        <p class="about-text">
+          Dari nasi kucing hangat sampai sate yang baru dibakar, semua tersedia dengan harga yang
+          bersahabat. Suasana malam, aroma bakaran, dan minuman hangat &mdash; kombinasi sempurna
+          setelah hari yang panjang.
+        </p>
+        <blockquote class="about-quote">
+          <p>Indonesia iku kudu akur, awakdewek iki sekabehane sedulur</p>
+          <span class="about-quote-attr">&mdash; Filosofi Angkringan Sedulur</span>
+        </blockquote>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== MENU ===== -->
+<section id="menu" aria-label="Menu Makanan dan Minuman">
+  <div class="section-inner">
+
+    <div class="section-header reveal">
+      <span class="section-eyebrow">PILIHAN KAMI</span>
+      <h2 class="section-title">Makanan &amp; Minuman</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <!-- Filter tabs -->
+    <div class="menu-filters reveal" role="tablist" aria-label="Filter menu">
+      <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Semua</button>
+      <button class="filter-btn" data-filter="makanan" role="tab" aria-selected="false">Makanan</button>
+      <button class="filter-btn" data-filter="sate" role="tab" aria-selected="false">Satean</button>
+      <button class="filter-btn" data-filter="minum" role="tab" aria-selected="false">Minuman</button>
+    </div>
+
+    <!-- Menu grid -->
+    <div class="menu-grid" id="menu-grid">
+
+      <!-- 1. Nasi Kucing Ayam -->
+      <article class="menu-card" data-category="makanan">
+        <img class="menu-illus" src="assets/svg/illustrations/nasi-kucing.svg" alt="Nasi Kucing Ayam" loading="lazy">
+        <h3 class="menu-name">Nasi Kucing Ayam</h3>
+        <p class="menu-desc">Nasi porsi mini dengan ayam suwir berbumbu, sambal merah, dan lauk simpel yang bikin nambah terus</p>
+        <span class="menu-price">Rp 7.000</span>
+      </article>
+
+      <!-- 2. Nasi Kucing Tempe -->
+      <article class="menu-card" data-category="makanan">
+        <img class="menu-illus" src="assets/svg/illustrations/tempe-goreng.svg" alt="Nasi Kucing Tempe" loading="lazy">
+        <h3 class="menu-name">Nasi Kucing Tempe</h3>
+        <p class="menu-desc">Tempe orek pedas di atas nasi mini hangat &mdash; ekonomis, mengenyangkan, klasik angkringan</p>
+        <span class="menu-price">Rp 5.000</span>
+      </article>
+
+      <!-- 3. Gorengan (FAVORIT) -->
+      <article class="menu-card" data-category="makanan">
+        <span class="menu-badge">FAVORIT</span>
+        <img class="menu-illus" src="assets/svg/illustrations/gorengan.svg" alt="Gorengan" loading="lazy">
+        <h3 class="menu-name">Gorengan</h3>
+        <p class="menu-desc">Tempe goreng, tahu isi, bakwan kriuk &mdash; camilan wajib buat nemenin malam yang santai</p>
+        <span class="menu-price">Rp 2.000</span>
+      </article>
+
+      <!-- 4. Sate Usus (FAVORIT) -->
+      <article class="menu-card" data-category="sate">
+        <span class="menu-badge">FAVORIT</span>
+        <img class="menu-illus" src="assets/svg/illustrations/sate-usus.svg" alt="Sate Usus" loading="lazy">
+        <h3 class="menu-name">Sate Usus</h3>
+        <p class="menu-desc">Usus ayam dibakar sampai garing sempurna, dilumuri bumbu kecap manis-gurih yang meresap</p>
+        <span class="menu-price">Rp 3.000</span>
+      </article>
+
+      <!-- 5. Sate Telur Puyuh -->
+      <article class="menu-card" data-category="sate">
+        <img class="menu-illus" src="assets/svg/illustrations/sate-telur.svg" alt="Sate Telur Puyuh" loading="lazy">
+        <h3 class="menu-name">Sate Telur Puyuh</h3>
+        <p class="menu-desc">Telur puyuh mini dibakar dan dibumbui kecap pedas &mdash; kecil tapi nagih, pasti nggak cukup satu tusuk</p>
+        <span class="menu-price">Rp 3.000</span>
+      </article>
+
+      <!-- 6. Sate Ayam -->
+      <article class="menu-card" data-category="sate">
+        <img class="menu-illus" src="assets/svg/illustrations/sate-ayam.svg" alt="Sate Ayam" loading="lazy">
+        <h3 class="menu-name">Sate Ayam</h3>
+        <p class="menu-desc">Sate ayam juicy dengan bumbu kacang kental dan lontong &mdash; favorit semua kalangan</p>
+        <span class="menu-price">Rp 15.000</span>
+      </article>
+
+      <!-- 7. Kopi Tubruk (KHAS) -->
+      <article class="menu-card" data-category="minum">
+        <span class="menu-badge">KHAS</span>
+        <img class="menu-illus" src="assets/svg/illustrations/kopi-tubruk.svg" alt="Kopi Tubruk" loading="lazy">
+        <h3 class="menu-name">Kopi Tubruk</h3>
+        <p class="menu-desc">Kopi angkringan klasik, kental dan pekat, langsung sapu kantuk. Paling cocok sambil bakar sate</p>
+        <span class="menu-price">Rp 7.000</span>
+      </article>
+
+      <!-- 8. Wedang Jahe -->
+      <article class="menu-card" data-category="minum">
+        <img class="menu-illus" src="assets/svg/illustrations/wedang-jahe.svg" alt="Wedang Jahe" loading="lazy">
+        <h3 class="menu-name">Wedang Jahe</h3>
+        <p class="menu-desc">Jahe segar yang diseduh hangat &mdash; menghangatkan badan dan bikin rileks di tengah malam</p>
+        <span class="menu-price">Rp 8.000</span>
+      </article>
+
+      <!-- 9. Es Teh Manis -->
+      <article class="menu-card" data-category="minum">
+        <img class="menu-illus" src="assets/svg/illustrations/es-teh.svg" alt="Es Teh Manis" loading="lazy">
+        <h3 class="menu-name">Es Teh Manis</h3>
+        <p class="menu-desc">Teh manis es yang segar dan sederhana &mdash; nggak pernah gagal jadi teman makan malam</p>
+        <span class="menu-price">Rp 6.000</span>
+      </article>
+
+    </div>
+
+    <p class="menu-footer-note reveal">
+      Harga dan menu dapat berubah. Konfirmasi langsung ke kami ya!
+    </p>
+
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section id="galeri" aria-label="Galeri Angkringan Sedulur">
+  <div class="section-inner">
+
+    <div class="section-header reveal">
+      <span class="section-eyebrow">SUASANA KAMI</span>
+      <h2 class="section-title">Galeri</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="gallery-grid">
+
+      <!-- BIG cell (col-span 2) -->
+      <div class="gallery-cell big">
+        <img class="gallery-cell-svg" src="assets/svg/illustrations/scene-night.svg" alt="Suasana malam Angkringan Sedulur" loading="lazy">
+        <div class="gallery-overlay"></div>
+        <p class="gallery-caption">Suasana Malam Angkringan Sedulur</p>
+      </div>
+
+      <!-- Small cell -->
+      <div class="gallery-cell small">
+        <img class="gallery-cell-svg" src="assets/svg/illustrations/scene-food.svg" alt="Menu unggulan" loading="lazy">
+        <div class="gallery-overlay"></div>
+        <p class="gallery-caption">Menu Unggulan</p>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="gallery-cell small">
+        <img class="gallery-cell-svg" src="assets/svg/illustrations/scene-drink.svg" alt="Minuman pilihan" loading="lazy">
+        <div class="gallery-overlay"></div>
+        <p class="gallery-caption">Minuman Pilihan</p>
+      </div>
+
+      <div class="gallery-cell small">
+        <img class="gallery-cell-svg" src="assets/svg/illustrations/scene-grill.svg" alt="Proses pembakaran sate" loading="lazy">
+        <div class="gallery-overlay"></div>
+        <p class="gallery-caption">Proses Pembakaran</p>
+      </div>
+
+      <div class="gallery-cell small">
+        <img class="gallery-cell-svg" src="assets/svg/illustrations/scene-people.svg" alt="Kumpul bersama sedulur" loading="lazy">
+        <div class="gallery-overlay"></div>
+        <p class="gallery-caption">Kumpul Bareng Sedulur</p>
+      </div>
+
+      <div class="gallery-cell small">
+        <img class="gallery-cell-svg" src="assets/svg/illustrations/scene-cart.svg" alt="Angkringan cart kami" loading="lazy">
+        <div class="gallery-overlay"></div>
+        <p class="gallery-caption">Angkringan Kami</p>
+      </div>
+
+    </div>
+
+    <p class="gallery-footer-note reveal">
+      Foto asli akan segera hadir &mdash; follow kami di Instagram untuk konten terbaru
+    </p>
+
+  </div>
+</section>
+
+<!-- ===== INFO & LOCATION ===== -->
+<section id="info" aria-label="Informasi dan Lokasi">
+  <div class="section-inner">
+
+    <div class="section-header reveal">
+      <span class="section-eyebrow">TEMUKAN KAMI</span>
+      <h2 class="section-title">Info &amp; Lokasi</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="info-grid">
+
+      <!-- CARD A: Jam Operasional -->
+      <div class="info-card reveal">
+        <div class="info-card-header">
+          <svg class="info-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/>
+            <line x1="12" y1="12" x2="9.5" y2="6.5"/>
+            <line x1="12" y1="12" x2="12" y2="7"/>
+            <circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/>
+          </svg>
+          <h3 class="info-card-title">Jam Operasional</h3>
+        </div>
+        <div class="hours-list">
+          <div class="hours-row">
+            <span class="hours-day">Selasa</span>
+            <span class="hours-time">17:00 &ndash; 01:00</span>
+          </div>
+          <div class="hours-row">
+            <span class="hours-day">Rabu</span>
+            <span class="hours-time">17:00 &ndash; 01:00</span>
+          </div>
+          <div class="hours-row">
+            <span class="hours-day">Kamis</span>
+            <span class="hours-time">17:00 &ndash; 01:00</span>
+          </div>
+          <div class="hours-row">
+            <span class="hours-day">Jumat</span>
+            <span class="hours-time">17:00 &ndash; 01:00</span>
+          </div>
+          <div class="hours-row">
+            <span class="hours-day">Sabtu</span>
+            <span class="hours-time">17:00 &ndash; 01:00</span>
+          </div>
+          <div class="hours-row">
+            <span class="hours-day">Minggu</span>
+            <span class="hours-time">17:00 &ndash; 01:00</span>
+          </div>
+          <div class="hours-row">
+            <span class="hours-day">Senin</span>
+            <span class="hours-time closed">TUTUP</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD B: Kontak & Alamat -->
+      <div class="info-card reveal">
+        <div class="info-card-header">
+          <svg class="info-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="10" r="5"/>
+            <path d="M8.5 14 L12 20 L15.5 14"/>
+            <circle cx="12" cy="10" r="2" fill="currentColor" stroke="none"/>
+          </svg>
+          <h3 class="info-card-title">Kontak &amp; Alamat</h3>
+        </div>
+
+        <div class="contact-row">
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="10" r="5"/>
+            <path d="M8.5 14 L12 20 L15.5 14"/>
+            <circle cx="12" cy="10" r="2" fill="currentColor" stroke="none"/>
+          </svg>
+          <div>
+            <span class="contact-label">Alamat</span>
+            <span class="contact-value">Jl. Lintas Sumatera, Sipare-pare, Air Putih, Batu Bara</span>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="10" r="5"/>
+            <path d="M8.5 14 L12 20 L15.5 14"/>
+            <circle cx="12" cy="10" r="2" fill="currentColor" stroke="none"/>
+          </svg>
+          <div>
+            <span class="contact-label">Patokan</span>
+            <span class="contact-value">Depan Pintu Tol Indrapura</span>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <!-- REPLACE: @angkringansedulur_new → confirm correct active Instagram account -->
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="6"/>
+            <circle cx="12" cy="12" r="4.5"/>
+            <circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/>
+          </svg>
+          <div>
+            <span class="contact-label">Instagram</span>
+            <span class="contact-value">@angkringansedulur_new</span>
+          </div>
+        </div>
+
+        <!-- REPLACE: wa.me/6282365202375 → real WhatsApp number -->
+        <a href="https://wa.me/6282365202375" class="btn-wa-full" target="_blank" rel="noopener" aria-label="Chat WhatsApp Angkringan Sedulur">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"/>
+            <path d="M8 12 C8 9.79 9.79 8 12 8 C14.21 8 16 9.79 16 12 C16 14.21 14.21 16 12 16 C11.1 16 10.28 15.71 9.62 15.21 L7 16 L7.79 13.38 C7.29 12.72 8 11.9 8 12Z"/>
+          </svg>
+          Chat WhatsApp
+        </a>
+      </div>
+
+      <!-- FULL-WIDTH: Map card -->
+      <div class="info-map-card reveal">
+        <div class="info-map-bg" aria-hidden="true">
+          <img src="assets/svg/illustrations/scene-night.svg" alt="">
+        </div>
+        <div class="info-map-content">
+          <svg class="info-map-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="10" r="5"/>
+            <path d="M8.5 14 L12 20 L15.5 14"/>
+            <circle cx="12" cy="10" r="2" fill="currentColor" stroke="none"/>
+          </svg>
+          <p class="info-map-address">Jl. Lintas Sumatera (Jalinsum), Sipare-pare</p>
+          <p class="info-map-sub">Kecamatan Air Putih, Kabupaten Batu Bara, Sumatera Utara</p>
+          <p class="info-map-note">Depan Pintu Tol Indrapura</p>
+          <!-- REPLACE: Google Maps link → actual pin location -->
+          <a href="https://maps.app.goo.gl/eAgxSZ4eBZzCTUb2A" class="info-map-link" target="_blank" rel="noopener" aria-label="Buka lokasi di Google Maps">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="4" y1="12" x2="20" y2="12"/>
+              <polyline points="14,7 20,12 14,17"/>
+            </svg>
+            Buka di Google Maps
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer role="contentinfo">
+  <!-- Footer Logo -->
+  <svg class="footer-logo" viewBox="0 0 300 200" fill="none" aria-label="Angkringan Sedulur logo">
+    <circle cx="72" cy="100" r="28" stroke="#E8A820" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="72" y1="72" x2="72" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="44" y1="100" x2="100" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="52" y1="80" x2="92" y2="120" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="92" y1="80" x2="52" y2="120" stroke="#E8A820" stroke-width="1.2"/>
+    <circle cx="72" cy="100" r="4" stroke="#E8A820" stroke-width="1.2"/>
+    <circle cx="228" cy="100" r="28" stroke="#E8A820" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="228" y1="72" x2="228" y2="128" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="200" y1="100" x2="256" y2="100" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="208" y1="80" x2="248" y2="120" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="248" y1="80" x2="208" y2="120" stroke="#E8A820" stroke-width="1.2"/>
+    <circle cx="228" cy="100" r="4" stroke="#E8A820" stroke-width="1.2"/>
+    <line x1="100" y1="68" x2="200" y2="68" stroke="#E8A820" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="72" y1="72" x2="100" y2="68" stroke="#E8A820" stroke-width="1.5"/>
+    <line x1="228" y1="72" x2="200" y2="68" stroke="#E8A820" stroke-width="1.5"/>
+    <path d="M142 76 L142 94 C142 97 146 99 150 99 C154 99 158 97 158 94 L158 76 C158 73 154 71 150 71 C146 71 142 73 142 76Z" stroke="#E8A820" stroke-width="1.2"/>
+    <path d="M150 93 C148 91 147 88 150 85 C153 88 152 91 150 93Z" fill="#E8A820" stroke="none"/>
+    <rect x="100" y="108" width="100" height="14" rx="2" stroke="#E8A820" stroke-width="1.5"/>
+    <text x="150" y="146" font-family="Cormorant Garamond, serif" font-size="22" font-weight="600" fill="#E8A820" text-anchor="middle" letter-spacing="3">ANGKRINGAN SEDULUR</text>
+    <line x1="60" y1="158" x2="240" y2="158" stroke="#886040" stroke-width="0.8"/>
+    <text x="150" y="172" font-family="Cormorant Garamond, serif" font-size="9" fill="#886040" text-anchor="middle" letter-spacing="2">SIPARE-PARE · BATU BARA</text>
+  </svg>
+
+  <p class="footer-tagline">Titik Kumpul Orang Bahagia</p>
+
+  <nav class="footer-socials" aria-label="Media sosial">
+    <!-- REPLACE: @angkringansedulur_new → confirm correct active Instagram account -->
+    <a href="https://instagram.com/angkringansedulur_new" class="footer-social-link" target="_blank" rel="noopener" aria-label="Instagram Angkringan Sedulur">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="3" y="3" width="18" height="18" rx="6"/>
+        <circle cx="12" cy="12" r="4.5"/>
+        <circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/>
+      </svg>
+      Instagram
+    </a>
+    <!-- REPLACE: wa.me/6282365202375 → real WhatsApp number -->
+    <a href="https://wa.me/6282365202375" class="footer-social-link" target="_blank" rel="noopener" aria-label="WhatsApp Angkringan Sedulur">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="3" y="3" width="18" height="18" rx="5"/>
+        <path d="M8 12 C8 9.79 9.79 8 12 8 C14.21 8 16 9.79 16 12 C16 14.21 14.21 16 12 16 C11.1 16 10.28 15.71 9.62 15.21 L7 16 L7.79 13.38 C7.29 12.72 8 11.9 8 12Z"/>
+      </svg>
+      WhatsApp
+    </a>
+  </nav>
+
+  <p class="footer-copyright">
+    &copy; 2025 Angkringan Sedulur &mdash; Sipare-pare, Batu Bara, Sumatera Utara
+  </p>
+  <div class="footer-dev">
+    <span>Dikembangkan oleh</span>
+    <a href="mailto:veldorable@gmail.com">veldorable@gmail.com</a>
+    <span>&middot;</span>
+    <a href="https://wa.me/62895328615374" target="_blank" rel="noopener">+62 895-3286-15374</a>
+  </div>
+</footer>
+
+<!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+<!-- REPLACE: wa.me/6282365202375 → real WhatsApp number -->
+<div class="wa-float">
+  <span class="wa-tooltip">Chat Sekarang</span>
+  <a href="https://wa.me/6282365202375" class="wa-float-btn" target="_blank" rel="noopener" aria-label="Chat WhatsApp Angkringan Sedulur">
+    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="3" y="3" width="18" height="18" rx="5"/>
+      <path d="M8 12 C8 9.79 9.79 8 12 8 C14.21 8 16 9.79 16 12 C16 14.21 14.21 16 12 16 C11.1 16 10.28 15.71 9.62 15.21 L7 16 L7.79 13.38 C7.29 12.72 8 11.9 8 12Z"/>
+    </svg>
+  </a>
+</div>
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
