@@ -566,25 +566,31 @@
 
       <!-- FULL-WIDTH: Map card -->
       <div class="info-map-card reveal">
-        <div class="info-map-bg" aria-hidden="true">
-          <img src="assets/svg/illustrations/scene-night.svg" alt="">
-        </div>
-        <div class="info-map-content">
-          <svg class="info-map-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="12" cy="10" r="5"/>
-            <path d="M8.5 14 L12 20 L15.5 14"/>
-            <circle cx="12" cy="10" r="2" fill="currentColor" stroke="none"/>
-          </svg>
-          <p class="info-map-address">Jl. Lintas Sumatera (Jalinsum), Sipare-pare</p>
-          <p class="info-map-sub">Kecamatan Air Putih, Kabupaten Batu Bara, Sumatera Utara</p>
-          <p class="info-map-note">Depan Pintu Tol Indrapura</p>
-          <!-- REPLACE: Google Maps link → actual pin location -->
-          <a href="https://maps.app.goo.gl/eAgxSZ4eBZzCTUb2A" class="info-map-link" target="_blank" rel="noopener" aria-label="Buka lokasi di Google Maps">
+        <iframe
+          class="map-embed"
+          title="Lokasi Angkringan Sedulur di Google Maps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.2011939249774!2d99.34989379999999!3d3.3003183000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3033dd0033e4aecb%3A0x9cc1203d819b1eb6!2sAngkringan%20sedulur!5e0!3m2!1sid!2sid!4v1781447786361!5m2!1sid!2sid"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="info-map-footer">
+          <div class="info-map-text">
+            <svg class="info-map-foot-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="10" r="5"/>
+              <path d="M8.5 14 L12 20 L15.5 14"/>
+              <circle cx="12" cy="10" r="2" fill="currentColor" stroke="none"/>
+            </svg>
+            <div>
+              <p class="info-map-address">Jl. Lintas Sumatera (Jalinsum), Sipare-pare</p>
+              <p class="info-map-sub">Kec. Air Putih, Kabupaten Batu Bara &mdash; Depan Pintu Tol Indrapura</p>
+            </div>
+          </div>
+          <a href="https://maps.app.goo.gl/eAgxSZ4eBZzCTUb2A" class="info-map-link" target="_blank" rel="noopener" aria-label="Buka rute di Google Maps">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <line x1="4" y1="12" x2="20" y2="12"/>
               <polyline points="14,7 20,12 14,17"/>
             </svg>
-            Buka di Google Maps
+            Buka di Maps
           </a>
         </div>
       </div>
